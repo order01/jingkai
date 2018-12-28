@@ -1,0 +1,511 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 13px;
+	text-decoration: none;
+}
+h3{
+	margin: 0;
+}
+.vessel{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.navbar{
+	height: 104px;
+	line-height: 30px;
+	box-shadow: 0px 3px 3px gainsboro;
+	margin-bottom: 0px;
+	background: white;
+}
+.navbar .logo{
+	float: left;
+}
+.navbar .logo img{
+	float: left;
+	margin-top: 30px;
+}
+.navbar .logo ul {
+	float: left;
+	margin-top: 37px;
+}
+.navbar .logo ul li{
+	float: left;
+	margin-left: 40px;
+}
+.navbar .logo ul li a{
+	display: block;
+	 height: 30px;
+	 color: #14191e;
+	 text-decoration: none;
+}
+
+.navbar .logo ul li:nth-child(1) a{
+	border-bottom: 1px solid #3faeff;
+	color: #3FAEFF;
+}
+.navbar .logo ul li:hover a{
+	border-bottom: 1px solid #3faeff;
+	color: #3FAEFF;
+}
+
+.navbar .logo2{
+	float: right;
+	height:104px ;
+	width: 400px;
+	margin-top: 25px;
+	position: relative;
+}
+.navbar  .logo2 .im{
+	float: left;
+}
+
+.navbar .logo2 .form-control{
+	float: right;
+	display: inline;
+	height: 50px;
+	outline: none;
+	padding: 0px 20px;
+	width: 210px;
+	outline: none;
+	border-radius: 0;
+	margin-top: 5px;
+	
+}
+.navbar  .logo2 a{
+	display: block;
+	width: 50px;
+	height: 25px;
+	border-left: 1px solid gainsboro;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+}
+.navbar  .logo2 a img{
+	
+	margin-left: 10px;
+}
+
+.box{
+	text-decoration: none;
+	width: 285px;
+	height: 475px;
+	border-radius: 8px;
+	background: rgba(0,0,0,0.4);    
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.box .adverst a{
+	display:inline-block;
+	opacity: .75;
+	height: 60px;
+	width: 245px;
+	line-height: 60px;
+	margin-left: 20px;
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, .2)
+}
+.box .adverst a:hover{
+	opacity: 1;
+}
+.box .adverst a span{
+	line-height: 60px;
+	float: right;
+}
+.box .icon{
+	text-align: center;
+
+}
+.box .icon a{
+	margin-top: 15px;
+	display: inline-block;
+	width: 30%;
+	height: 40px;
+	opacity: .4;
+	text-decoration: none;
+	color: #fff;
+}
+.box .icon a:hover{
+	opacity: 1;
+}
+.box .icon a span{
+	font-size: 20px;
+}
+.carousel-indicators{
+	position: absolute;
+	left: 1150px;
+	bottom: 10px;
+}
+
+.study {
+	padding: 30px 0;
+}
+.study ul{
+	height: 150px;
+}
+.study ul li{
+	float: left;
+	transition: all 0.2s;
+}
+.study ul li+li{
+
+	margin-left: 18px ;
+}
+.study ul li:hover{
+	transform: translateY(-5px);
+}
+.contact{
+	background: #f8f8f8;
+	overflow: hidden;
+}
+.contact li:hover{
+	box-shadow: 0px 5px 15px 3px gainsboro;
+}
+.contact li{
+	 box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+	 transition:all 0.5s;
+	 border-radius: 6px;
+	 position: relative;
+}
+.contact li img{
+	border-radius: 6px;
+}
+.contact .recommend{
+	height: 55px;
+	margin: 40px 0 10px 0;
+}
+.contact h3{
+	margin: 0px 0px;
+	float: left;
+}
+.contact .guanggao .text-wrap{
+	position: absolute;
+	left: 0px;
+	top: 185px;
+}
+.contact .text-wrap a{
+	 text-decoration: none;
+}
+.list-title .time {
+    float: right;
+    color: #cccccc;
+}
+.list-title{
+	width: 340px;
+	overflow: hidden;
+	display: block;
+    position: relative;
+    padding-left: 13px;
+    margin-left: 20px;
+    margin-right: 26px;
+    padding-top: 13px;
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+}
+.list-title:before {
+    content: '';
+    border-radius: 50%;
+    background-color: rgb(0, 160, 233);
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 4px;
+    height: 4px;
+}
+.list-title:hover .title{
+	color: #00a1ff;
+}
+.contact h3 span{
+	margin-left: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #DDDDDD;
+}
+.contact a{
+	float: right;
+}
+.contact .guanggao{
+	height: 319px;
+}
+.contact .guanggao li{
+	float: left;
+	
+}
+.contact .guanggao li+li{
+	margin-left: 20px;
+}
+
+.contact .xianmu{
+	height: 300px;
+}
+.contact .xianmu li a{
+	text-decoration:none;
+}
+.contact .xianmu .text-wrap{
+	margin-left: 33px;
+    margin-right: 33px;
+}
+.contact .xianmu .text-wrap .title{
+	padding-top: 16px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+    border-bottom: 1px solid #eeeeee;
+    text-align: center;
+}
+.contact .xianmu .text-wrap .about{
+	margin-top: 13px;
+    height: 35px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999999;
+    line-height: 17px;
+}
+.contact .xianmu li{
+	float: left;
+	width: 286px;
+    height: 300px;
+    background-color: #fff;
+}
+.contact .xianmu li+li{
+	margin-left: 18px;
+}
+.contact .story{
+	height: 500px;
+}
+.contact .story li{
+	float: left;
+	margin-bottom: 19px;
+	margin-left: 19px;
+}
+.contact .story li:nth-child(1){
+	margin-left: 0px;
+}
+.contact .story li:nth-child(4){
+	margin-left: 0px;
+}
+.activee{
+	background:#f8f8f8; ;
+	padding-bottom: 55px;
+}
+ .activee .photo{
+	height: 530px;
+	box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+	border-radius: 10px;
+	background: white;
+}
+.activee .photo h3{
+	line-height: 70px;
+	margin-left: 15px;
+}
+.activee .photo ul {
+	overflow: hidden;
+}
+.activee .photo ul li{
+	float: left;
+	margin-left: 15px;
+}
+.jishu h4{
+	text-align: center;
+}
+.jishu .vessel .qingchu{
+    overflow: hidden;
+}
+.jishu h4{
+	margin: 60px;
+}
+.jishu h5{
+	padding: 5px;
+}
+.jishu h5 span{
+	font-weight: bold;
+}
+.jishu h5 a{
+	float: right;
+	color: white;
+	text-decoration: none;
+}
+.jishu .technology,.jishu .open_source,.jishu .student{
+	position: relative;
+	padding-top: 30px;
+	width: 370px;
+	height: 290px;
+	border: 1px solid gainsboro;
+	float: left;
+	border-radius: 10px;
+	
+}
+.jishu .open_source,.jishu .student{
+	margin-left: 45px;
+}
+.jishu .bb{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 370px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 6px 6px 0 0;
+}
+.jishu .technology .bb{
+	background: #448aca;
+}
+.jishu .open_source .bb{
+	background-color:rgb(91, 185, 149);
+}
+.jishu .student .bb{
+	background: #f8b551;
+}
+.jishu .text-wrap a{
+	 text-decoration: none;
+}
+.list-title .time {
+    float: right;
+    color: #cccccc;
+}
+.jishu ul {
+	overflow: hidden;
+}
+.jishu ul li {
+	width: 24%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.jinkai{
+	text-align: center;
+	height: 150px;
+	background: #f8f8f8;
+}
+.jinkai img{
+	margin-top: 30px;
+}
+.addres .con{
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;
+}
+.addres{
+	height: 300px;
+	background: #535353;
+	color: gainsboro;
+	display: flex;
+}
+.addres span{
+	text-align: left;
+	line-height: 30px;
+	
+}
+.addres .add{
+	float: left;
+	margin-top: 63px;
+}
+.addres .ph{
+float: right;
+margin-top: 63px;
+}
+.addres .ph img:nth-child(1){
+	margin-right: 20px;
+}
+.footer{
+	height: 85px;
+	line-height: 85px;
+	text-align: center;
+	background: #313131;
+	color: gainsboro;
+}
+
+
+.content{
+	background: #f8f8f8;
+}
+.content .photo_log{
+	display: inline-block;
+	border-radius: 6px;
+}
+.content .photo_log p{
+	line-height: 20px;
+	font-weight: bold;
+	color: gray;
+}
+.content .photo_log p a{
+	text-decoration: none;
+	float: right;
+}
+.content .learn{
+	float: right
+
+}
+.content .learn .pph{
+	background: white;
+	width: 350px;
+	
+}.content .learn .pph a{
+	text-decoration: none;
+}
+.content .list-title{
+	width: 320px;
+}
+.content .learn .weixin{
+	margin-top: 30px;
+	border-radius: 6px;
+}
+.content .learn .people{
+	padding: 30px 0;
+	background: white;
+	border-radius: 6px;
+	margin-top: 20px;
+}
+.content .learn .people h2{
+	margin-left: 10px;
+}
+.content .learn .people h2 span{
+	float: right;
+	font-size: 30px;
+	color: cornflowerblue;
+	margin-right: 10px;
+}
+.content .learn .people .con_people{
+	width: 300px;
+	height: 70px;
+	border-bottom:1px solid gainsboro ;
+	margin: 30px 10px;
+	line-height: 25px;
+	
+}
+.content .learn .people  a{
+	text-decoration: none;
+}
+.content .learn .people .con_people img{
+	float:left;
+	margin-top: 10px;
+}
+.content .learn .people .con_people .te{
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.content .learn .people .con_people .te .a{
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+.content .learn .people .con_people .te .b{
+	color: #a0a0a0;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.content .learn .people .con_people a{
+	float: right;
+	margin-top: 15px;
+}

@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.container{
+	padding: 0;
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+.article-p{
+	color: #d5d5d5;
+}
+/*导航栏*/
+
+.nav{
+	list-style: none;
+}
+
+
+/*.search input::-moz-placeholder{
+	color: #f6f6f6;
+}*/
+
+.line{
+	display: flex;
+}
+/*article*/
+.article{
+	background-color: #f4f4f4;
+	padding: 30px 0;
+}
+/*article-left*/
+.article .col-md-8 p{
+	float: left;
+}
+.article a{
+	display: block;
+}
+.article-info{
+	background-color: #FFF;
+	padding: 20px 30px;
+	border-radius: 5px;
+	height: 1150px;
+}
+.number{
+	float: right;
+}
+hr.style-one {
+	border: 0;
+	height: 1px;
+	background: #333;
+}
+.article-info img{
+	width: 100%;
+	overflow: hidden;
+}
+.info{
+	padding: 30px 20px;
+}
+/*article-right*/
+/*news*/
+.news,.students{
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+.news img{
+	width: 100%;
+}
+.point{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #1facec;
+	margin-top: 8px;
+	margin-left: 30px;
+}
+.news-info{
+	line-height: 23px;
+	margin-left: 10px;
+}
+.news-date{
+	flex: 1;
+	margin-right: 30px;
+	color: #e0e0e0;
+}
+/*students*/
+.students{
+	margin-top: 20px;
+	padding: 10px 20px 20px;
+}
+.students .row img{
+	width: 50px;
+	height: 50px;
+}
+.students-border{
+	border-bottom: 1px #f6f6f6 dashed;
+}
+.students .row{
+	margin-top: 20px;
+}
+.line p{
+	font-weight: bold;
+}
+.class{
+	margin-left: 10px;
+	color: #b2b2b2;
+}
+.students a{
+	display: block;
+	margin-top: 20px;	 
+}
+.brand{
+	padding: 50px 0 20px;
+}
+.brand p{
+	color: #e6e6e6;
+	letter-spacing: 4px;
+	margin-top: 15px;
+}
+/*contact*/
+.contact{
+	background-color: #535353;
+	padding: 50px 0;
+}
+.contact .col-md-7 p{
+	color: #FFFFFF;
+	margin-left: 180px;
+}
+.two-code{
+	background-color: #FFF;
+	padding: 10px 10px 5px 10px;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+.two-code p{
+	margin-top: 20px;
+}
+/*footbar*/
+.footbar{
+	padding: 30px 0 10px;
+	background-color: #313131;
+}
+.footbar p{
+	color: #6a6a6a;
+}

@@ -1,0 +1,260 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.container{
+	padding: 0;
+	width: 1200px;
+	margin: 0 auto;
+}
+.nav{
+	list-style: none;
+}
+
+/*导航栏*/
+.line{
+	display: flex;
+	list-style: none;
+}
+.navbar-right img{
+	margin-right: 20px;
+}
+.search{
+	border: 1px solid #f6f6f6;
+}
+.search input{
+	border: 0;
+	border-right: 0;
+	height: 50px;
+	padding-left:10px;  
+}
+/*.search input::-moz-placeholder{
+	color: #f6f6f6;
+}*/
+.search input::placeholder{
+    color: #e5e5e5;
+}
+.search span{
+	width: 60px;
+	border: 0;
+	border-radius: 0;
+	background-color: #FFF;
+	font-size: 20px;
+	color: #cbcbcb;
+	border-left: 1px solid #f6f6f6;
+	margin-top: -3px;
+}
+
+/*course center*/
+/*标题*/
+.course{
+	background-color: #f8f8f8;
+}
+
+.course .col-md-6 h4,.col-md-6 a{
+	font-weight: bold;
+	padding: 15px 0;
+}
+.course .col-md-6 h4:last-child{
+	color: #dddddd;
+	margin-left: 10px;
+}
+.course .col-md-6 a{
+	display: block;
+}
+.row .col-md-4 img{
+	width: 400px;
+	height: 100%;
+}
+/*课程内容*/
+.course .container .row .col-md-3{
+	background-color: #fff4ec;
+	padding: 15px 0;
+	height: 305px;
+}
+.col-md-3 .row .col-md-6:nth-child(odd){
+	padding: 20px 0 20px 30px;
+}
+.col-md-3 .row .col-md-6:nth-child(even){
+	padding: 20px 30px 20px 0;
+}
+.col-md-3 .row .col-md-6 p{
+	margin-top: 10px;
+	color: #ffc9b4;
+}
+.course .col-md-5{
+	width: 500px;
+	background-color: #FFF;
+	height: 305px;
+	-moz-border-radius-topright: 50px;
+	padding: 30px 0;
+}
+.point{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #1facec;
+	margin-top: 8px;
+	margin-left: 30px;
+}
+.news-info{
+	line-height: 23px;
+	margin-left: 10px;
+}
+.news-date{
+	flex: 1;
+	margin-right: 30px;
+	color: #e0e0e0;
+}
+/*course center*/
+/*our teachers*/
+.teacher{
+	background: linear-gradient(270deg,#3873bc,#6aa1a3);
+}
+.col-md-12 h4{
+	color: #FFF;
+	font-weight: bold;
+	margin-top: 50px;
+}
+.col-md-12 h4:last-child{
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+/*our teachers*/
+.teacher .col-md-4 img{
+	width:90px;
+	height: 90px;
+}
+.btn-primary{
+	border: none;
+	background-color: #00a1ff;
+	padding: 5px 30px;
+	margin-top: 15px;
+}
+.teacher-bg{
+	background-color: #FFF;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+.teacher-info{
+	padding: 50px 70px;
+}
+.position{
+	font-size: 12px;
+	margin: 15px 0 20px;
+	color: #00a1ff;
+	font-weight: bold;
+}
+.teacher-info p{
+	text-align: left;
+}
+/*our students*/
+.students{
+	background-color: #f8f8f8;
+	padding-bottom: 50px;
+}
+.col-md-8 h4{
+	padding: 15px 0;
+	font-weight: bold;
+}
+.col-md-8 h4:nth-child(2){
+	display:inline-block;
+	color: #dddddd;
+	margin-left: 15px;
+}
+.student-info{
+	border-radius: 10px;	
+}
+.student-info .row{
+	padding: 10px 30px;
+}
+.student-info .row:nth-child(odd){
+	background-color: #f5fbf9;
+}
+.student-info .row:nth-child(even){
+	background-color: #FFF;
+}
+.student-info .row:first-child{
+	color: #FFF;
+	background-color: #43c79e;
+	border-radius: 10px 10px 0 0;
+}
+.student-info .row:last-child{
+	border-radius: 0 0 10px 10px;
+}
+.students .col-md-4 h4{
+	font-weight: bold;
+	padding: 15px 0;
+	float: left;
+}
+.students .col-md-4 a{
+	font-weight: bold;
+	padding: 22px 0;
+	display: block;
+	text-align: right;
+}
+.story{
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 20px 5px;
+	margin: 0 0 20px 0;
+}
+.students .col-md-4 .row img{
+	width: 80px;
+	height: 80px;
+}
+.story .col-md-6 h5{
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.story .col-md-6 p{
+	font-size: 10px;
+	color: #d5d5d5;
+	line-height: 15px;
+}
+.story .col-md-3 p{
+	color: #d5d5d5;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.story .story-info{
+	margin: 10px 0;
+	background-color: #f1f6f9;
+	padding: 30px 30px;
+}
+/*brand*/
+.brand{
+	padding: 50px 0 20px;
+}
+.brand p{
+	color: #e6e6e6;
+	letter-spacing: 4px;
+	margin-top: 15px;
+}
+/*contact*/
+.contact{
+	background-color: #535353;
+	padding: 50px 0;
+}
+.contact .col-md-7 p{
+	color: #FFFFFF;
+	margin-left: 180px;
+}
+.two-code{
+	background-color: #FFF;
+	padding: 10px 10px 5px 10px;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+.two-code p{
+	margin-top: 20px;
+}
+/*footbar*/
+.footbar{
+	padding: 30px 0 10px;
+	background-color: #313131;
+}
+.footbar p{
+	color: #6a6a6a;
+}

@@ -1,0 +1,259 @@
+body{
+	font-family: "微软雅黑";
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	background-image: url(../images/20.png);
+	background-repeat: no-repeat;
+}
+.text-red{
+	color: deepskyblue;
+}
+/*第一部分*/
+.nav{
+	text-align: center;
+	height: 100px;
+	background:  #fff;
+	line-height: 100px;
+	color: #14191e;
+}
+.nav .container .logo{
+	float: left;
+}
+.nav .container .logo img{
+	margin-right: 5px;
+	padding-top: 30px;
+}
+.nav .container .logo *{
+	float: left;
+}
+.nav .container .logo .center{
+	float: left;
+}
+.nav .container .center .list{
+	float: left;
+}
+.nav .container .center .list li{
+	float: left;
+}
+.nav .container .center .list li a{
+	color: #14191e;
+	padding: 0px 5px;
+}
+.nav .container .center .list li a:hover{
+	color: deepskyblue;
+}
+.nav .container .call{
+	padding-right: 5px;
+}
+.nav .container .text{
+	height: 25px;
+	margin-top: 50px;
+}
+
+
+/*第二部分*/
+.page01 .container .img{
+	padding-top: 40px;
+	margin: 20px auto;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.page01 ul li{
+	width: 95%;
+	padding-bottom: 20px;
+}
+/*第三部分*/
+.page02 .container{
+	background-color: #626262;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.header1{
+	height: 46px;
+	line-height: 46px;
+	font-size: 26px;
+	color: #F1F1F1;
+	padding-left: 52px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.slider1{
+	width: 100%;
+	position: relative;
+}
+.container .slider1{
+	margin: 15px 0 20px;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.container .slider1 li{
+	width: 200px;
+	height: 250px;
+	float: left;
+	padding-right: 12px;
+	list-style: none;
+}
+.container .slider1 li:last-child { padding-right: 0;}
+.container .slider1 li img{
+	width: 100%;
+	height: 100%;
+}
+
+.header2{
+	height: 46px;
+	line-height: 46px;
+	font-size: 26px;
+	color: #F1F1F1;
+	padding-left: 52px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.slider2{
+	width: 100px;
+	position: relative;
+	height: 200px;
+}
+.container .slider2{
+	margin: 15px 0 20px;
+	overflow: hidden;
+	padding: 0 20px;
+	float: right;
+}
+.container .slider2 li{
+	width: 200px;
+	height: 250px;
+	float: left;
+	padding-right: 12px;
+	list-style: none;
+}
+.container .slider2 li:last-child { padding-right: 0;}
+.container .slider2 li img{
+	width: 100%;
+	height: 100%;
+}
+.page02 .container .slider2{
+	width: 250px;
+	height: 300px;
+	background: #FFFFFF;
+	margin-left: 30px;
+	text-align: center;
+	padding-top: 30px;
+} 
+/*第三部分*/
+#bbs{
+	padding: 80px 0;
+	text-align: center;
+}
+#bbs .col-md-4{
+	padding: 15px;
+}
+#bbs .col-md-4:hover{
+	background: #f1f1f1;
+	box-shadow: 1px 1px 4px #ccc;
+}
+#bbs img{
+	margin: 0 auto;
+}
+#bbs h2{
+	font-weight: bold;
+}
+
+/*第四部分*/
+.header0{
+	height: 46px;
+	line-height: 46px;
+	font-size: 26px;
+	color: #666666;
+	padding-left: 52px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}	
+
+
+/*倒数第三部分*/
+#job{
+	background: #f4f4f4;
+}
+.header01{
+	height: 46px;
+	line-height: 46px;
+	font-size: 26px;
+	color: #666666;
+	padding-left: 52px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+#job .container .header3{
+	padding-top: 20px;
+	margin-left: 40px;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+#job .container .slider3:hover{
+	background-color: #AFD9EE;
+}
+a{
+	color: #000000;
+}
+#job .container .header4{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+.col-md-3,.col-md-9{
+	background: #fff;
+}
+
+
+/*倒数第二部分*/
+#aa1{
+	text-align: center;
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #fff;
+}
+#aa1 p{
+	color: #535353;
+}
+#about{
+    background: #535353;
+    padding-top: 30px;
+}
+#about .col-md-6 p{
+    line-height: 25px;
+    color: #cfcfcf;
+}
+.container .col-md-6 .col-md-6{
+	width: 200px;
+	height: 200px;
+	background: #FFFFFF;
+	margin-left: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+.container .col-md-6 .col-md-6 p{
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+/*最后一步*/
+#aa{
+	text-align: center;
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #313131;
+}
+#aa p{
+	color: #535353;
+}

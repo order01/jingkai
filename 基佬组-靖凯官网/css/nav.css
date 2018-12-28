@@ -1,0 +1,80 @@
+.vessel{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.navbar{
+	height: 104px;
+	line-height: 30px;
+	box-shadow: 0px 3px 3px gainsboro;
+	margin-bottom: 0px;
+	background: white;
+}
+.navbar .logo{
+	float: left;
+}
+.navbar .logo img{
+	float: left;
+	margin-top: 30px;
+}
+.navbar .logo ul {
+	float: left;
+	margin-top: 37px;
+}
+.navbar .logo ul li{
+	float: left;
+	margin-left: 40px;
+}
+.navbar .logo ul li a{
+	display: block;
+	 height: 30px;
+	 color: #14191e;
+	 text-decoration: none;
+}
+
+.navbar .logo ul li:nth-child(1) a{
+	border-bottom: 1px solid #3faeff;
+	color: #3FAEFF;
+}
+.navbar .logo ul li:hover a{
+	border-bottom: 1px solid #3faeff;
+	color: #3FAEFF;
+}
+
+.navbar .logo2{
+	float: right;
+	height:104px ;
+	width: 400px;
+	margin-top: 25px;
+	position: relative;
+}
+.navbar  .logo2 .im{
+	float: left;
+}
+
+.navbar .logo2 .form-control{
+	float: right;
+	display: inline;
+	height: 50px;
+	outline: none;
+	padding: 0px 20px;
+	width: 210px;
+	outline: none;
+	border-radius: 0;
+	margin-top: 5px;
+	
+}
+.navbar  .logo2 a{
+	display: block;
+	width: 50px;
+	height: 25px;
+	border-left: 1px solid gainsboro;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+}
+.navbar  .logo2 a img{
+	
+	margin-left: 10px;
+}

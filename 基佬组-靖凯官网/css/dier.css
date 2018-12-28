@@ -1,0 +1,55 @@
+body{
+	font-family: "微软雅黑";
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+/*body{
+	background-image: url(../images/20.png);
+	background-repeat: no-repeat;
+}*/
+.text-red{
+	color: deepskyblue;
+}
+/*第一部分*/
+
+
+/*倒数第二部分*/
+#about{
+    background: #535353;
+    padding-top: 30px;
+}
+#about .col-md-6 p{
+    line-height: 25px;
+    color: #cfcfcf;
+}
+.container .col-md-6 .col-md-6{
+	width: 200px;
+	height: 200px;
+	background: #FFFFFF;
+	margin-left: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+.container .col-md-6 .col-md-6 p{
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+/*最后一步*/
+#aa{
+	text-align: center;
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #313131;
+}
+#aa p{
+	color: #535353;
+}

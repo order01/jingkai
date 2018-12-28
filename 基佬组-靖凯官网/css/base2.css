@@ -1,0 +1,232 @@
+/* 复位样式*/
+ *{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+/*公共样式*/
+	
+/*导航栏*/
+
+
+.banner .container .col-md-12{
+	text-align: center;
+}
+.menu{
+	padding: 40px 0px;
+}
+.menu .container .col-md-6 .list{
+	float: left;
+}
+.menu .container .col-md-6 .list li{
+	padding: 0px 20px;
+	float: left;
+	
+}
+.menu .container .col-md-6 .list li a{
+	font-size: 16px;
+	font-weight: bold;
+	color: grey;
+}
+.menu .container .col-md-6 .list li a:hover{
+	padding-bottom: 3px;
+	text-decoration: none;
+	border-bottom: 2px solid deepskyblue;
+}
+.section{
+	background: #e9e3e3;
+	padding: 60px;
+}
+.section .col-md-3 hr{
+	border:.3px solid grey;
+	margin:10px 20px;
+}
+.section .col-md-3 h3{
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+}
+.section .col-md-3 p{
+	text-indent: 2em;
+}
+.section .col-md-3 .word{
+	background: white;
+	padding: 10px;
+}
+.section .col-md-3{
+	padding: 20px 10px;
+}
+.section .col-md-3:hover{
+	background: url(15,0,0,.5);
+}
+.section .col-md-5 hr{
+	border:.4px solid grey;
+	
+}
+.section .col-md-2{
+	text-align: center;
+}
+.room{
+	padding: 50px 0px;
+}
+.room .col-md-4 img{
+	text-align: center;
+	padding:0px auto;
+	display:inline-block;
+}
+.room .col-md-4 div{
+	text-align: center;
+}
+.room .col-md-4 p{
+	font-size:18px;
+	letter-spacing: 6px;
+	color: gray;
+}
+.erweima{
+	background: gray;
+	padding: 80px 0px;
+}
+.erweima .col-md-8 .col-md-6 p{
+	color: white;
+}
+.foot{
+	border-top: 1px solid #c8c3c3;
+	padding: 40px 0px;
+	background: #313131;
+}
+.foot .col-md-8 .list li{
+	float:left;
+	padding-left: 5px;
+}
+.foot .col-md-8 .list li a{
+	text-decoration: none;
+	color: white;
+}
+/*企业合作*/
+.content{
+	padding: 30px 0px;
+}
+.content .col-md-4{
+	background: #f8f8f8;
+	padding: 10px 15px;
+}
+.content .col-md-4 p{
+	float: left;
+}
+.content .col-md-4 a{
+	float: right;
+	text-decoration: none;
+}
+.content .col-md-4 hr{
+	margin-top: 30px;
+}
+.content .col-md-4 ul{
+	 vertical-align: middle;
+	 text-align: center;
+}
+.content .col-md-4 ul li{
+	padding-left: 20px;
+    padding-bottom: 10px;
+	float: left;
+}
+.content .col-md-7 .col-md-10 .sea{
+	width: 100%;
+	height: 40px;
+	border-color: #00a1ff;
+	padding: 5px 10px;
+	margin-right: 0px;
+}
+.content .col-md-7 .btn1{
+	float: left;
+	height: 40px;
+	background: #00a1ff;
+	text-align: center;
+}
+.content .col-md-7 .col-md-2 a{
+	text-decoration: none;
+	line-height: 40px;
+	color: white;
+	
+}
+.content .col-md-7 .list{
+	float: left;
+}
+.content .col-md-7 .list li{
+	float: left;
+	
+	padding: 20px 25px 5px 10px;
+}
+.content .col-md-7 .list a{
+	text-decoration: none;
+}
+.content .col-md-7 hr{
+	margin-top: 100px;
+	border:0.5px solid grey;
+	
+}
+.content .col-md-7 .list li a{
+	height: 30px;
+	line-height: 30px;
+	display: block;
+}
+.content .col-md-7 .list li a:hover{
+	
+	border-bottom: 2px solid #00a1ff;
+}
+.content .col-md-7 .job{
+	color: #00a1ff;
+}
+.content .col-md-7 .money{
+	color: red;
+}
+.content .col-md-7 .col-md-7 input{
+	background: #eeeeee;
+	border: 1px solid #eeeeee;
+	color: gray;
+}
+.content .col-md-7 .col-md-7 .aaa{
+	float: right;
+}
+.content .col-md-4{
+	background: white;
+	padding: 30px 0px;
+}
+.content .col-md-4 input{
+	background: #f8f8f8;
+	border: 1px solid #ede6e6;
+	padding: 5px 10px;
+}
+.content .col-md-4 .shang{
+	float: left;
+}
+.content .col-md-4 .xia{
+	float: right;
+}
+.content .col-md-4 .list{
+	float: left;
+	margin-left: 7px;
+}
+.content .col-md-4 .list li{
+	border:1px solid #ede6e6;
+	padding: 0px 10px;
+	height: 33px;
+	width: 30px;
+	line-height: 33px;
+	text-align: center;
+	margin: 0px 5px;
+	
+}
+.content .col-md-4 .list li a{
+	text-decoration: none;
+	color: gray;
+	
+}
